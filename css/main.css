@@ -1,0 +1,223 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+        url('Gilroy-Regular.woff2') format('woff2'),
+        url('Gilroy-Regular.woff') format('woff'),
+        url('Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Gilroy';
+    outline: none;
+}
+header {
+    margin: 0 auto;
+    width: 1440px;
+    height: 700px;
+    background: linear-gradient(#FCEED5, #FCEED5, #FFE7BA);
+    position: relative;
+    overflow: hidden;
+}
+.container {
+    margin: 0 auto;
+    width: 1180px;
+    /* border: 1px solid red; */
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    padding: 28px 0;
+}
+.logo img {
+    display: flex;
+    position: relative;
+    z-index: 9;
+}
+.header_menu {
+    display: flex;
+    align-items: center;
+}
+.header ul {
+    display: flex;
+}
+.header ul li {
+    margin-left: 48px;
+}
+.header ul li a {
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #003459;
+    font-weight: 700;
+    line-height: 24px;
+}
+.header_buttons {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.search_section {
+    display: flex;
+    position: relative;
+}
+.header_buttons input {
+    display: flex;
+    width: 280px;
+    padding: 12px 20px 12px 16px;
+    border: none;
+    border-radius: 46px;
+    align-items: center;
+    gap: 12px;
+    background: #FDFDFD;
+}
+.search_logo {
+    position: absolute;
+    top: 10px;
+    left: 13px;
+}
+::placeholder {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #99A2A5;
+    padding-left: 30px;
+}
+.header_buttons button {
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 28px 10px 28px;
+    border-radius: 57px;
+    background-color: #003459;
+    color: #FDFDFD;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+select {
+    border: none;
+    background: inherit;
+    color: #002A48;
+    font-size: 16px;
+    font-weight: 500;
+}
+.header_banner {
+    margin-top: 100px;
+    display: flex;
+}
+.banner_text {
+    width: 50%;
+}
+.banner_text .bigger {
+    color: #002A48;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 68px;
+    text-transform: capitalize;
+    position: relative;
+    z-index: 9;
+}
+.banner_text .normal {
+    margin: 10px 0;
+    color: #002A48;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.banner_text .text {
+    margin: 30px 0;
+    color: #242B33;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    display: flex;
+    width: 480px;
+    flex-direction: column;
+}
+.banner_buttons {
+    display: flex;
+    gap: 20px;
+}
+button.btn1 {
+    color: #003459;
+    padding: 14px 28px;
+    background: inherit;
+    border-radius: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid #003459;
+    font-size: 18px;
+    line-height: 24px;
+    gap: 10px;
+}
+button.btn1 i {
+    font-size: 25px;
+}
+button.btn2 {
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 27px 35px;
+    border-radius: 57px;
+    background-color: #003459;
+    color: #FDFDFD;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.rectangle img {
+    position: absolute;
+}
+.rectangle_bottom {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+.banner_image {
+    width: 50%;
+}
+.rectangle_main {
+    position: absolute;
+    bottom: -40px;
+    right: 100px;
+}
+.rectangle_main2 {
+    position: absolute;
+    right: 20px;
+    bottom: -5px;
+}
+.rectangle_main3 {
+    position: absolute;
+    top: 90px;
+    bottom: 0;
+    right: -25px;
+}
+.rectangle_small {
+    position: absolute;
+    top: 135px;
+    right: 667px;
+}
+.rectangle_small_bg {
+    position: absolute;
+    top: 192px;
+}
