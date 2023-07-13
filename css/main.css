@@ -10,15 +10,14 @@
 }
 /* HEADER */
 header {
-    height: 695px;
+    min-height: 695px;
     background: linear-gradient(#FCEED5, #FCEED5, #FFE7BA);
     overflow: hidden;
 }
 .container {
     margin: 0 auto;
-    width: 1180px;
+    max-width: 1180px;
     position: relative;
-    /* border: 1px solid blue; */
 }
 .rectangle_header img {
     position: absolute;
@@ -36,6 +35,9 @@ header {
     display: flex;
     position: relative;
     z-index: 9;
+}
+.mobile_menu {
+    display: none;
 }
 .header_menu {
     display: flex;
@@ -79,10 +81,13 @@ header {
     background: #FDFDFD;
     cursor: pointer;
 }
-.search_logo {
+.search_logo img {
     position: absolute;
     top: 10px;
     left: 13px;
+}
+.search_logo img.mobile_search {
+    display: none;
 }
 ::placeholder {
     font-size: 14px;
@@ -96,7 +101,7 @@ header {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    padding: 14px 28px 10px 28px;
+    padding: 14px 28px 14px 28px;
     border-radius: 57px;
     background-color: #003459;
     color: #FDFDFD;
@@ -811,7 +816,7 @@ footer .container .register .input_button {
 footer .container .register .input_button form input {
     width: 508px;
     display: flex;
-    padding: 14px 28px;
+    padding: 17px 28px;
     border-radius: 8px;
     border: 1px solid #99A2A5;
 }
